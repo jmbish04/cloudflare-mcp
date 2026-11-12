@@ -5,8 +5,8 @@
   "compatibility_date": "2026-01-12",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
-    "logs": { "enabled": true },
-    "traces": { "enabled": true }
+    "logs": { "enabled": true, "invocation_logs": false },
+    "traces": { "enabled": false }
   },
   "vars": {
     "CLOUDFLARE_API_BASE": "https://api.cloudflare.com/client/v4"
